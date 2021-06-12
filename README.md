@@ -10,14 +10,14 @@ Schema for Song Play Analysis
 Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
 
 ### -Fact Table
-songplays - records in log data associated with song plays i.e. records with page NextSong
+- songplays - records in log data associated with song plays i.e. records with page NextSong\n
     songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 #### -Dimension Tables
-users - users in the app
+- users - users in the app\n
     user_id, first_name, last_name, gender, level
-songs - songs in music database
+- songs - songs in music database\n
     song_id, title, artist_id, year, duration
-artists - artists in music database
+- artists - artists in music database\n
     artist_id, name, location, latitude, longitude
-time - timestamps of records in songplays broken down into specific units
+- time - timestamps of records in songplays broken down into specific units\n
     start_time, hour, day, week, month, year, weekday
