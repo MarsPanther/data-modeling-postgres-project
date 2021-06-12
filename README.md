@@ -14,7 +14,7 @@ The purpose of the database is to model song and log datasets (originaly stored 
 ## Schema design and ETL pipeline
 -----
 
-![ER Diagram](data/sparkifdb_erd.png?raw=true "ER Diagram")
+![ER Diagram](/data/sparkifydb_erd.png?raw=true "ER Diagram")
 
 ![](data/sparkifdb_erd.png?raw=true)
 
