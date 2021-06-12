@@ -3,7 +3,7 @@
 This Data Engineering Nanodegree project creates a postgres database `sparkifydb` for a music app, Sparkify.
 
 This project uses Song Dataset
-The first dataset is a subset of real data from the [https://labrosa.ee.columbia.edu/millionsong/](Million Song Dataset).
+The first dataset is a subset of real data from the [https://labrosa.ee.columbia.edu/millionsong/] (Million Song Dataset).
 Each file is in JSON format and contains metadata about a song and the artist of that song. 
 ## purpose
 The purpose of the database is to model song and log datasets (originaly stored in JSON format) with a star schema optimised for queries on song play analysis.
@@ -13,6 +13,8 @@ The purpose of the database is to model song and log datasets (originaly stored 
 
 ## Schema design and ETL pipeline
 -----
+
+![ER Diagram](data/sparkifdb_erd.png?raw=true "ER Diagram")
 
 ![](data/sparkifdb_erd.png?raw=true)
 
